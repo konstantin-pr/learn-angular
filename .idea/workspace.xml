@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee13ea8f-32dd-4df9-bae4-c8d68062ec68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/eggly-logo.png" afterPath="$PROJECT_DIR$/assets/img/eggly-logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/eggly-app.start.js" afterPath="$PROJECT_DIR$/app/eggly-app.start.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.complete.html" afterPath="$PROJECT_DIR$/index.complete.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.finish.html" afterPath="$PROJECT_DIR$/index.finish.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.start.html" afterPath="$PROJECT_DIR$/index.start.html" />
-      <change type="MOVED" beforePath="D:\kp\1Xampp\htdocs\la\assets\css\eggly.css" afterPath="$PROJECT_DIR$/assets/css/la.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/la.css" afterPath="$PROJECT_DIR$/assets/css/la.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="la.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,33 +70,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="eggly-app.start.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/eggly-app.start.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="22" selection-start="2279" selection-end="2279" vertical-scroll-proportion="-35.307693" vertical-offset="0" max-vertical-offset="2227">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="53" selection-start="637" selection-end="644" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="1479">
+            <state line="32" column="4" selection-start="1813" selection-end="1813" vertical-scroll-proportion="-4.173077" vertical-offset="327" max-vertical-offset="1479">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eggly-app.finish.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/eggly-app.finish.js">
+      <file leaf-file-name="eggly-app.start.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/eggly-app.start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="51" selection-start="3656" selection-end="3656" vertical-scroll-proportion="0.0" vertical-offset="1417" max-vertical-offset="2312">
-              <folding>
-                <marker date="1416846449309" expanded="true" signature="2757:2942" placeholder="{...}" />
-                <marker date="1416846449309" expanded="true" signature="2797:2945" placeholder="{&quot;title&quot;: ''...}" />
-                <marker date="1416846449309" expanded="true" signature="3102:3186" placeholder="{...}" />
-              </folding>
+            <state line="18" column="36" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.59765625" vertical-offset="0" max-vertical-offset="2329">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="la.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="la.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/la.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="4" selection-start="483" selection-end="483" vertical-scroll-proportion="0.40045768" vertical-offset="262" max-vertical-offset="2312">
+            <state line="91" column="16" selection-start="1249" selection-end="1249" vertical-scroll-proportion="-13.0" vertical-offset="1209" max-vertical-offset="2465">
               <folding />
             </state>
           </provider>
@@ -171,18 +156,18 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/eggly-app.js" />
+        <option value="$PROJECT_DIR$/assets/css/la.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/eggly-app.start.js" />
-        <option value="$PROJECT_DIR$/assets/css/la.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -442,26 +427,26 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08503401" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17838125" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23791541" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -587,17 +572,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="95" column="51" selection-start="3656" selection-end="3656" vertical-scroll-proportion="0.0" vertical-offset="1417" max-vertical-offset="2312">
           <folding>
-            <marker date="1416846449309" expanded="true" signature="2757:2942" placeholder="{...}" />
-            <marker date="1416846449309" expanded="true" signature="2797:2945" placeholder="{&quot;title&quot;: ''...}" />
-            <marker date="1416846449309" expanded="true" signature="3102:3186" placeholder="{...}" />
+            <marker date="1416846449309" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1416846449309" expanded="true" signature="-1:-1" placeholder="{&quot;title&quot;: ''...}" />
+            <marker date="1416846449309" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/eggly-app.start.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="22" selection-start="2279" selection-end="2279" vertical-scroll-proportion="-35.307693" vertical-offset="0" max-vertical-offset="2227">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,16 +586,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/la.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="53" selection-start="637" selection-end="644" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="1479">
+        <state line="91" column="16" selection-start="1249" selection-end="1249" vertical-scroll-proportion="-13.0" vertical-offset="1209" max-vertical-offset="2465">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/la.css">
+    <entry file="file://$PROJECT_DIR$/app/common/models/bookmarks-model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="4" selection-start="483" selection-end="483" vertical-scroll-proportion="0.40045768" vertical-offset="262" max-vertical-offset="2312">
+        <state line="51" column="5" selection-start="1388" selection-end="1388" vertical-scroll-proportion="1.5025996" vertical-offset="0" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="4" selection-start="1813" selection-end="1813" vertical-scroll-proportion="-4.173077" vertical-offset="327" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/eggly-app.start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="36" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.59765625" vertical-offset="0" max-vertical-offset="2329">
           <folding />
         </state>
       </provider>

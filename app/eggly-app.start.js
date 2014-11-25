@@ -1,3 +1,4 @@
+//todo: need to know, how to save scope data in external file
 angular.module('Eggly', [
 
 ])
@@ -5,20 +6,17 @@ angular.module('Eggly', [
         $scope.categories = [
             {"id": 0, "name": "Development"},
             {"id": 1, "name": "Design"},
-            {"id": 2, "name": "Exercise"},
             {"id": 3, "name": "Humor"}
         ];
 
         $scope.bookmarks = [
-            {"id": 0, "title": "AngularJS", "url": "http://angularjs.org", "category": "Development" },
-            {"id": 1, "title": "Egghead.io", "url": "http://angularjs.org", "category": "Development" },
-            {"id": 2, "title": "A List Apart", "url": "http://alistapart.com/", "category": "Design" },
+            {"id": 0, "title": "Codeschool", "url": "http://codeschool.com", "category": "Development" },
+            {"id": 1, "title": "Egghead.io", "url": "http://egghead.io", "category": "Development" },
+            {"id": 2, "title": "Codrops", "url": "http://tympanus.net/codrops/", "category": "Design" },
             {"id": 3, "title": "One Page Love", "url": "http://onepagelove.com/", "category": "Design" },
-            {"id": 4, "title": "MobilityWOD", "url": "http://www.mobilitywod.com/", "category": "Exercise" },
-            {"id": 5, "title": "Robb Wolf", "url": "http://robbwolf.com/", "category": "Exercise" },
             {"id": 6, "title": "Senor Gif", "url": "http://memebase.cheezburger.com/senorgif", "category": "Humor" },
-            {"id": 7, "title": "Wimp", "url": "http://wimp.com", "category": "Humor" },
-            {"id": 8, "title": "Dump", "url": "http://dump.com", "category": "Humor" }
+            {"id": 7, "title": "Bashorg", "url": "http://bash.im", "category": "Humor" },
+            {"id": 8, "title": "Lurk", "url": "http://lurkmore.to/", "category": "Humor" }
         ];
 
         $scope.isCreating = false;
@@ -59,10 +57,10 @@ angular.module('Eggly', [
             };
         }
 
-        /*http://prntscr.com/59pebr */
+
 
         //-------------------------------------------------------------------------------------------------
-        // CRUD
+        // CRUD operations
         //-------------------------------------------------------------------------------------------------
         function createBookmark(bookmark) {
             bookmark.id = $scope.bookmarks.length;
@@ -81,8 +79,16 @@ angular.module('Eggly', [
             $scope.isEditing = false;
         }
 
+        function deleteBookmark(bookmark){
+            _.remove($scope.bookmarks, function(b){
+                return b.id == bookmark.id;
+            });
+        }
+
         $scope.createBookmark = createBookmark;
         $scope.updateBookmark = updateBookmark;
+        $scope.deleteBookmark = deleteBookmark;
+
 
         //-------------------------------------------------------------------------------------------------
         // CREATING AND EDITING STATES
