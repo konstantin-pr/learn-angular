@@ -1,19 +1,19 @@
 html,
 body {
-    background-color: #D5DBD8;
+    background-color: #3c3d37;
     width: 100%;
     height: 100%;
     color: #4F534E;
 }
 
 a {
-    color: #373A36;
+    color: #fff;
     font-size: 24px;
     text-decoration: none;
 }
 
 a:hover {
-    color: #5bc0de;
+    color: #FACC30;
 }
 
 .btn, .btn:focus {
@@ -21,17 +21,31 @@ a:hover {
 }
 
 .btn-link {
-    color: #373A36;
+    color: #fff;
     font-size: 24px;
     text-decoration: none !important;
 }
 
-.btn-link:hover {
-    color: #5bc0de;
+.btn-info{
+    background-color: #F2972D;
+    border-color: #efa22d;
 }
 
+.btn-link:hover, .btn-link:focus {
+    color:  #F2972D;
+
+    
+}
+
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info{
+    background-color: #efbf2d;
+    border-color: #efa22d;
+}
+
+
 .sidebar a {
-    color: #5bc0de;
+    color: #FACC30;
     font-size: 30px;
     text-decoration: none;
 }
@@ -43,6 +57,10 @@ a:hover {
 
 .logo {
     padding: 20px;
+}
+.logo{
+    width: 200px;
+    height: 200px;
 }
 
 .sidebar {
@@ -57,7 +75,7 @@ a:hover {
 }
 
 .sidebar .active {
-    background-color: #D5DBD8;
+    background-color: #3c3d37;
 }
 
 .sidebar .active > a {
@@ -67,19 +85,19 @@ a:hover {
 
 .main .active span,
 .main .active > a {
-    color: #5bc0de;
+    color: #FACC30;
 }
 
 .editing > button {
-    color: #5bc0de !important;
+    color: #FACC30 !important;
 }
 .editing > a {
-    color: #5bc0de !important;
+    color: #FACC30 !important;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
-    background-color: #D5DBD8;
+    background-color: #3c3d37;
 }
 
 @media (min-width: 768px) {
